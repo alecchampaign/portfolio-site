@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://alecchampaign.github.io",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -d --watch",
+    "build": "webpack -p",
+    "build-dev": "webpack -d --watch",
     "start-dev": "nodemon server.js",
-    "start-prod": "webpack -p && node server.js"
+    "start": "node server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "repository": {
     "type": "git",
@@ -19,7 +23,6 @@
   "bugs": {
     "url": "https://github.com/alecchampaign/portfolio-site/issues"
   },
-  "homepage": "https://github.com/alecchampaign/portfolio-site#readme",
   "devDependencies": {
     "@babel/core": "^7.8.7",
     "@babel/preset-env": "^7.8.7",
@@ -27,6 +30,7 @@
     "@hot-loader/react-dom": "^16.13.0",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.4.2",
+    "gh-pages": "^2.2.0",
     "nodemon": "^2.0.2",
     "prettier": "^1.19.1",
     "style-loader": "^1.1.3",
