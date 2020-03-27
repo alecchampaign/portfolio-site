@@ -7,7 +7,9 @@ const Header = () => (
       <h1>Alec Champaign</h1>
       <h3>Software Engineer</h3>
       <h5>Full-Stack</h5>
-      <button>View my work</button>
+      <a id='header-btn' href='#shoply'>
+        View my work
+      </a>
     </div>
   </div>
 );
