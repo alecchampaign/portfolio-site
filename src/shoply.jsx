@@ -4,7 +4,9 @@ import Icons from './icons';
 
 const Shoply = () => (
   <div id='shoply'>
-    <img class='thumbnail' src='./images/shoply.png'></img>
+    <div class='img-container'>
+      <img class='thumbnail' src='./images/shoply.png'></img>
+    </div>
     <div class='outer-container'>
       <div>
         <a

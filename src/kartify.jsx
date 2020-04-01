@@ -4,7 +4,9 @@ import Icons from './icons';
 
 const Kartify = () => (
   <div id='kartify'>
-    <img class='thumbnail' id='kartify-img' src='./images/kartify.png'></img>
+    <div class='img-container-kartify'>
+      <img class='thumbnail' id='kartify-img' src='./images/kartify.png'></img>
+    </div>
     <div class='outer-container alt'>
       <div>
         <a

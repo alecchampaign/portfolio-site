@@ -4,7 +4,9 @@ import Icons from './icons';
 
 const Stashit = () => (
   <div id='stashit'>
-    <img class='thumbnail' src='./images/stashit.png'></img>
+    <div class='img-container'>
+      <img class='thumbnail' src='./images/stashit.png'></img>
+    </div>
     <div class='outer-container'>
       <div>
         <a
