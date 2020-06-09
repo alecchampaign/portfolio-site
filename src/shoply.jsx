@@ -30,10 +30,17 @@ const Shoply = () => (
           icons={[
             'devicon-react-original-wordmark colored',
             'devicon-nodejs-plain-wordmark colored',
-            'devicon-express-original-wordmark'
+            'devicon-express-original-wordmark',
           ]}
         />
       </div>
+      <a
+        class='github-btn'
+        href='http://ec2-3-22-117-206.us-east-2.compute.amazonaws.com/product_details/3'
+        target='blank'
+      >
+        View Live
+      </a>
       <a
         class='github-btn'
         href='https://github.com/grey-octopus/project_greenfield'
