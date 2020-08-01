@@ -36,7 +36,7 @@ const Shoply = () => (
       </div>
       <a
         class='github-btn'
-        href='http://ec2-3-22-117-206.us-east-2.compute.amazonaws.com/product_details/3'
+        href='http://ec2-18-222-165-31.us-east-2.compute.amazonaws.com/product_details/5'
         target='blank'
       >
         View Live
